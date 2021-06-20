@@ -6,7 +6,6 @@
 }
 
 .header-head h2 {
-    color: rgb(124, 255, 244);
     font-family: 'Lobster', cursive;
 }
 
@@ -21,7 +20,20 @@
 .curved {
     position: relative;
     background: #404040;
-    height: 25vh;
+    height: 15vh;
     border-bottom-left-radius: 50% 20%;
     border-bottom-right-radius: 50% 20%;
+}
+
+.red-space {
+    margin-top: 1%;
+    padding: 10px;
+    background-color: rgba(226, 61, 61, 0.5);
+    margin-bottom: 5%;
+}
+
+.cards {
+    width: 18rem;
+    margin-left: 20%;
+    height: 500px;
 }
