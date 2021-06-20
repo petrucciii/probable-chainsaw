@@ -12,11 +12,16 @@
 <body>
     <?php
         include './views/index.html';
+		include 'mail.php';
 		
 		
 		function send_mail($reciver, $subject, $message, $headers){
 			mail($reciver, $subject, $message, $headers);
 		}
+		
+		/*if(isset($_POST['send_mail'])){
+			send_mail('riccardo.petrucci99@gmail.com', $_POST['subject_mail'], $_POST['message_mail'], 'E-mail inviata da: '. $_POST)
+		}*/
     ?>
 </body>
 </html>
