@@ -9,7 +9,7 @@
     font-family: 'Lobster', cursive;
 }
 
-.header-head button {
+.header-head a {
     margin-left: 720px;
 }
 
@@ -36,4 +36,23 @@
     width: 18rem;
     margin-left: 20%;
     height: 500px;
+}
+
+.contact-info {
+    display: inline-block;
+    margin-left: 3%;
+}
+
+.map {
+    margin: 3%;
+    margin-top: 0;
+}
+
+.form {
+    margin-left: 3%;
+    margin-right: 6%;
+}
+
+#btn_send {
+    cursor: pointer;
 }
