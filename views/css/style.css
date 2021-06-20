@@ -56,3 +56,9 @@
 #btn_send {
     cursor: pointer;
 }
+
+.footer{
+    background-color: #404040;
+    color: white;
+    padding: 15px;
+}

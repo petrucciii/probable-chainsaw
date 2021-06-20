@@ -18,9 +18,9 @@
         include './views/index.html';
 		include 'mail.php';
 		
-		/*if(isset($_POST['send_mail'])){
+		if(isset($_POST['send_mail'])){
 			send_mail('riccardo.petrucci99@gmail.com', $_POST['subject_mail'], $_POST['message_mail'], 'E-mail inviata da: '. $_POST['email-mail'].', '. $_POST['name-mail']);
-		}*/
+		}
     ?>
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <script src="./views/js/app.js"></script>
