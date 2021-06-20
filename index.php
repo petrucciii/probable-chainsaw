@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sito Ufficiale della pensione per cani: 'La Pensione di Apollo.'">
     <meta name="keywords" content="">
+	<link rel="shortcut icon" href="./views/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="views/css/style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>La Pensione di Apollo</title>
