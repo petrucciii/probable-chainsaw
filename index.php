@@ -14,6 +14,9 @@
         include './views/index.html';
 		
 		
+		function send_mail($reciver, $subject, $message, $headers){
+			mail($reciver, $subject, $message, $headers);
+		}
     ?>
 </body>
 </html>
