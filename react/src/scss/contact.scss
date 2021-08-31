@@ -1,0 +1,13 @@
+.contact-info {
+    display: inline-block;
+}
+
+#btn_send {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1070px) {
+    .map{
+        width: 300px;
+    }
+}

@@ -1,0 +1,38 @@
+.header {
+    padding: 20px;
+    background-color: #404040;
+
+    h2 {
+        font-family: 'Lobster', cursive;
+    }
+
+    a {
+        margin-left: 70%;
+    }
+
+    .header-content {
+        display: inline-block;
+    }
+}
+
+.header-footer {
+    position: relative;
+    background: #404040;
+    height: 15vh;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+@media screen and (max-width: 1070px) {
+    .header{
+        a {
+            margin-left: 0;
+            display: block;
+            width: 80px;
+        }
+
+        .header-content {
+            display: block;
+        }
+    }
+}
